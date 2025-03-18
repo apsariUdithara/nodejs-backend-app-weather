@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-backend-app",
+  "version": "1.0.0",
+  "description": "A Node.js API for sending weather reports to users based on their location.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "axios": "^1.8.3",
+    "dotenv": "^8.6.0",
+    "express": "^4.21.2",
+    "googleapis": "^146.0.0",
+    "mongoose": "^8.12.1",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
